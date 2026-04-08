@@ -1,0 +1,16 @@
+# Credential and configuration files
+.mcp-claws.json
+.env
+.env.local
+.env.*.local
+*.local
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
