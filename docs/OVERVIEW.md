@@ -8,6 +8,7 @@ This is the GitHub organization profile repository for **St John Software**. It 
 
 ```
 .github/
+├── .gitignore          # Prevents credential and IDE files from being committed
 ├── README.md           # Repository label ("# .github / St John Software")
 ├── profile/
 │   └── README.md       # GitHub org profile page (rendered at github.com/St-John-Software)
@@ -19,6 +20,7 @@ This is the GitHub organization profile repository for **St John Software**. It 
 
 - `profile/README.md` — The only content rendered publicly. GitHub automatically displays this on the organization's profile page. Currently contains the default GitHub template with commented-out placeholder suggestions but no visible content.
 - `README.md` — Minimal root README, not rendered on the org profile.
+- `.gitignore` — Excludes credential files (`.env`, `.mcp-claws.json`), IDE config (`.vscode/`, `.idea/`), and OS metadata.
 
 ## Key Patterns
 
