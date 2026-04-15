@@ -12,8 +12,12 @@ This is the GitHub organization profile repository for **St John Software**. It 
 ├── README.md           # Repository label ("# .github / St John Software")
 ├── profile/
 │   └── README.md       # GitHub org profile page (rendered at github.com/St-John-Software)
-└── docs/
-    └── OVERVIEW.md     # This file
+├── docs/
+│   └── OVERVIEW.md     # This file
+└── ideas/
+    ├── overview.md     # Ideas focus areas index
+    ├── organization-profile-branding.md  # Profile branding proposal
+    └── rejected.md     # Rejected ideas log
 ```
 
 **Key files:**
@@ -21,6 +25,7 @@ This is the GitHub organization profile repository for **St John Software**. It 
 - `profile/README.md` — The only content rendered publicly. GitHub automatically displays this on the organization's profile page. Currently contains the default GitHub template with commented-out placeholder suggestions but no visible content.
 - `README.md` — Minimal root README, not rendered on the org profile.
 - `.gitignore` — Excludes credential files (`.env`, `.mcp-claws.json`), IDE config (`.vscode/`, `.idea/`), and OS metadata.
+- `ideas/` — Contains proposals and focus areas for future org development. See [Ideas](#ideas) section below.
 
 ## Key Patterns
 
@@ -31,6 +36,14 @@ This is the GitHub organization profile repository for **St John Software**. It 
 ## Configuration
 
 No environment variables or configuration values. This repository has no CI/CD workflows, no actions, and no branch protection rules currently defined.
+
+## Ideas
+
+The `ideas/` directory tracks proposals and focus areas for the organization:
+
+- **overview.md** — High-level focus areas: Organization Profile & Branding, Developer Experience & Contribution Infrastructure, GitHub Organization Standards
+- **organization-profile-branding.md** — Proposal to replace the empty profile README with a professional org profile including mission statement, branding, project showcase, tech stack overview, and social proof
+- **rejected.md** — Log of rejected ideas: dynamic org stats badges, org-wide issue templates, reusable Actions workflows library, SECURITY.md
 
 ## Extending This Repo
 
